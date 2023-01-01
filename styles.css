@@ -129,13 +129,19 @@ html{
     text-align: center;
     
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 1fr, 1fr;
+    align-items: center;
+    justify-self: center;
     grid-auto-rows: auto;
     grid-gap: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
+
+    
+    background-color: #141414;
+    
 }
 
 #javascript__logo{
