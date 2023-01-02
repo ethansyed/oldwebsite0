@@ -693,11 +693,11 @@ html{
 
 }
 
-#icon{
+#iconitem{
     transition: 0.1s ease-in;
 }
 
-#icon:hover{
+#iconitem:hover{
     transform: scale(1.1);
     cursor: pointer;
 
