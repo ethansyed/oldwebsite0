@@ -86,6 +86,8 @@ html{
     padding: 0 1rem;
     width: 100%;
     background-color: #2c2c2c;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .button{
@@ -96,9 +98,10 @@ html{
     padding: 10px 20px;
     height: 100%;
     width: 100%;
+    max-width:13rem;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 8px;
     background: #6804cc;
     color: #fff;
 }
@@ -349,7 +352,7 @@ html{
 }
 
 .main__content h2 {
-    font-size: 2.5rem;
+    font-size: 1.85rem;
     background-color: #F6EEE3;
     background-image: #F6EEE3;
     background-size: 100%;
