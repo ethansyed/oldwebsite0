@@ -4,7 +4,10 @@ const menuLinks = document.querySelector('.navbar__menu');
 const navlink = document.querySelector('.navbar__links');
 const navlink1 = document.querySelector('#skillLink');
 const navlink2 = document.querySelector('#projectLink');
+
 const faceRecog = document.querySelector('#faceRecog');
+const rest = document.querySelector('#rest');
+const cscroller = document.querySelector('#cscroller');
 
 const linkedIn = document.querySelector('.bibi-linkedin');
 const github = document.querySelector('.bibi-github');
@@ -46,4 +49,12 @@ doc.addEventListener('click', function(){
 
  faceRecog.addEventListener('click', function(){
     window.open("https://github.com/ethansyed/facialRecognition", '_blank');
+ })
+
+ rest.addEventListener('click', function(){
+    window.open("https://github.com/ethansyed/RESTapi", '_blank');
+ })
+
+ cscroller.addEventListener('click', function(){
+    window.open("https://www.youtube.com/watch?v=uPfxQGI0XYg&t=1s", '_blank');
  })
