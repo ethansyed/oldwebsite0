@@ -572,6 +572,7 @@ html{
 .projects__card__img{
     height: auto;
     max-width: 600px;
+    width: auto;
     border-radius: 15px;
     margin: 2rem;
 }
