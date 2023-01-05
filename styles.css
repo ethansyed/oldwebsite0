@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 html{
@@ -26,6 +26,7 @@ html{
 }
 
 .navbar__container{
+    font-weight: 500;
     background: #2c2c2c;
     display: flex;
     justify-content: space-between;
@@ -77,6 +78,7 @@ html{
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    font-weight: 500;
 }
 
 .navbar__btn{
@@ -104,6 +106,7 @@ html{
     border-radius: 8px;
     background: #6804cc;
     color: #fff;
+    font-weight: 500;
 }
 
 .button:hover{
@@ -119,6 +122,7 @@ html{
 /* Skills styling */
 .skills{
     margin-top: 4rem;
+    margin-bottom: 10rem;
     background-color: #141414;
     text-align: center;
     color: #F6EEE3;
@@ -256,6 +260,7 @@ html{
 
     .navbar__links{
         text-align: center;
+        font-weight: 500;
         padding: 2rem;
         width: 100%;
         display: table;
@@ -498,6 +503,79 @@ html{
     
 }
 
+.projects{
+    color: #F6EEE3;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects h1{
+    margin-bottom: 2rem;
+    display: absolute;
+    font-size: 2.25rem;
+    font-weight: 900;
+
+}
+.projects__container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 1300px;
+    border-radius: 15px;
+
+}
+
+.projects__card{
+    color:#141414;
+    background-color: #F6EEE3;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    margin: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+    border-width: .15rem .15rem .15rem .15rem;
+    border-radius: 15px;
+    border-color: #F6EEE3;
+    border-style: solid;
+    transition: .15s ease-in-out;
+}
+
+.projects__card:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.projects__card__text{
+    text-align: left;
+    max-width: 350px;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    
+}
+
+.projects__card__text p{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+.projects__card__img{
+    height: auto;
+    max-width: 600px;
+    border-radius: 15px;
+    margin: 2rem;
+}
+
 /* Services Section */
 
 .services{
@@ -520,61 +598,6 @@ html{
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
-
-.services__container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.services__card{
-    margin: 1rem;
-    height: 525px;
-    width: 400px;
-    border-radius: 4px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/signals.jpg');
-    background-size: cover;
-    position: relative;
-    color:#F6EEE3;
-}
-
-.services__card:nth-child(2){
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/AI.jpg');
-}
-
-.services h2{
-    position: absolute;
-    top: 350px;
-    left: 30px;
-}
-
-.services__card p{
-    position: absolute;
-    top: 400px;
-    left: 30px;
-}
-
-.services__card button{
-    color:#F6EEE3;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    outline: none;
-    border-radius: 4px;
-    background: #6804cc;
-    position: absolute;
-    top: 440px;
-    left: 30px;
-    font-size: 1rem;
-}
-
-.services__card:hover{
-    transform: scale(1.075);
-    transition: 0.25s ease-in;
-    cursor: pointer;
-}
-
-/* Add something to make transition out smooth */
 
 @media screen and (max-width: 960px){
     .services{

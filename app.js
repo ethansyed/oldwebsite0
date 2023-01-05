@@ -1,9 +1,10 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 
-const navlink = document.querySelector('.navbar__links')
-const navlink1 = document.querySelector('#skillLink')
-const navlink2 = document.querySelector('#projectLink')
+const navlink = document.querySelector('.navbar__links');
+const navlink1 = document.querySelector('#skillLink');
+const navlink2 = document.querySelector('#projectLink');
+const faceRecog = document.querySelector('#faceRecog');
 
 const linkedIn = document.querySelector('.bibi-linkedin');
 const github = document.querySelector('.bibi-github');
@@ -32,14 +33,17 @@ navlink2.addEventListener('click', function(){
 });
 
 linkedIn.addEventListener('click', function(){
-    window.location.assign('https://www.linkedin.com/in/ethan-syed-570b86186/');
+    window.open('https://www.linkedin.com/in/ethan-syed-570b86186/', '_blank');
 })
 
 github.addEventListener('click', function(){
-   window.location.assign("https://github.com/ethansyed");
+    window.open("https://github.com/ethansyed", '_blank');
 })
 
 doc.addEventListener('click', function(){
-    console.log("working");
-    window.location.assign("images/ResumeEthanSyed.pdf");
+    window.open("images/ResumeEthanSyed.pdf", '_blank');
+ })
+
+ faceRecog.addEventListener('click', function(){
+    window.open("https://github.com/ethansyed/facialRecognition", '_blank');
  })

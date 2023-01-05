@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Syed</title>
     <link rel="icon" href="images/mfavicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap'); </style>
 </head>
 <body>
    <nav class="navbar">
@@ -42,7 +46,7 @@
                 </a>
             </li>
             <li class="navbar__item">
-                <a href="#services" class="navbar__links" id = 'projectLink'>
+                <a href="#projects" class="navbar__links" id = 'projectLink'>
                     Projects
                 </a>
             </li>
@@ -109,22 +113,24 @@
     </div>
    </div>
 
-   <!-- Services Section -->
-   <div class="services" id = 'services'>
-    <h1>Personal Projects Below</h1>
-    <div class="services__container">
-        <div class="services__card">
-            <h2>Data Mining</h2> 
-            <p>Short description of project</p>
-            <button>Open</button>
-        </div>
-        <div class="services__card">
-            <h2>Project 2</h2> 
-            <p>Short description of project2</p>
-            <button>Open</button>
+   <!-- Projects Section -->
+   <div class="projects" id = "projects">
+    <h1>Personal Projects</h1>
+    <div class="projects__container">
+        <div class="projects__card" id = 'faceRecog'>
+            <div class="projects__card__text">
+                <h2>Facial recognition</h2>
+                <p>Built with: Python</p>
+                <p>&#x2022 Built using OpenCV libararies</p>
+                <p>&#x2022 Designed to encode faces stored within database and compare them to live feed</p>
+                <p>&#x2022 Scales frames before processing</p>
+                <p>&#x2022 On detection of new face, picture is taken and the new face stored</p>
+            </div>
+            <img src="images/recog.png" alt="pic" class = "projects__card__img">
         </div>
     </div>
    </div>
+
 
    <!-- Footer Section -->
    <div class="footer__container">
