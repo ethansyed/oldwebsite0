@@ -535,7 +535,7 @@ html{
     color:#141414;
     background-color: #fff;
     justify-content: center;
-    display: flex;
+    display: flex; 
     width: auto;
     margin: 1rem;
     flex-wrap: wrap;
@@ -629,7 +629,7 @@ html{
 
 .footer__container{
     background-color: #141414;
-    color:#F6EEE3;
+    color:#fff;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -682,17 +682,17 @@ html{
 }
 
 .footer__links--items > h2{
-    color: #F6EEE3;
+    color: #fff;
 }
 
 .footer__links--items a{
-    color:#F6EEE3;
+    color:#fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
 
 .footer_links--items a:hover{
-    color: #e9e9e9;
+    color: #fff;
     transition: 0.3s ease-out;
 }
 
@@ -710,7 +710,7 @@ html{
 
 
 .website__rights{
-    color:#F6EEE3;
+    color:#fff;
     text-align: center;
 }
 
