@@ -504,7 +504,7 @@ html{
 }
 
 .projects{
-    color: #F6EEE3;
+    color: #fff;
     display:flex;
     text-align: center;
     align-items: center;
@@ -533,7 +533,7 @@ html{
 
 .projects__card{
     color:#141414;
-    background-color: #F6EEE3;
+    background-color: #fff;
     justify-content: center;
     display: flex;
     width: auto;
@@ -542,7 +542,7 @@ html{
     position: relative;
     border-width: .15rem .15rem .15rem .15rem;
     border-radius: 15px;
-    border-color: #F6EEE3;
+    border-color: #fff;
     border-style: solid;
     transition: .15s ease-in-out;
 }
@@ -556,7 +556,7 @@ html{
     text-align: left;
     max-width: 350px;
     height: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 5rem;
     margin-bottom: 1rem;
