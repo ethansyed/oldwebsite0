@@ -125,7 +125,7 @@ html{
     margin-bottom: 10rem;
     background-color: #141414;
     text-align: center;
-    color: #F6EEE3;
+    color: #fff;
     font-size: 1.15rem;
     display: flex;
     flex-direction: column;
@@ -312,7 +312,7 @@ html{
         margin-top: 9rem;
         background-color: #141414;
         text-align: center;
-        color: #F6EEE3;
+        color: #fff;
         font-size: 1.15rem;
         display: flex;
         flex-direction: column;
@@ -358,8 +358,8 @@ html{
 
 .main__content h2 {
     font-size: 1.85rem;
-    background-color: #F6EEE3;
-    background-image: #F6EEE3;
+    background-color: #fff;
+    background-image: #fff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -372,13 +372,13 @@ html{
     margin-left: .5rem;
     font-size: 1.25rem;
     font-weight: 550;
-    color: #F6EEE3;
+    color: #fff;
 }
 
 .main__btn {
     font-size: 1rem;
-    background-image: #F6EEE3;
-    background-color: #F6EEE3;
+    background-image: #fff;
+    background-color: #fff;
     padding: 6px 18px;
     border-radius: 10.2px;
     border-style: none;;
@@ -471,7 +471,7 @@ html{
         margin-top: 7rem;
         background-color: #141414;
         text-align: center;
-        color: #F6EEE3;
+        color: #fff;
         font-size: 1.15rem;
         display: flex;
         flex-direction: column;
